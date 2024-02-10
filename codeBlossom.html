@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="codeBlossom.css" />
+    <script
+      src="https://kit.fontawesome.com/b2256841cb.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Code Blossom - Mowo</title>
+  </head>
+
+  <body>
+    <!-- Nav -->
+    <nav>
+      <div id="nav-wrapper">
+        <div id="logo">
+          <span id="coloured"></span>
+          <div id="text">
+            <span id="letter-cross"></span>
+            <h1>Travelzo<span class="period">.</span></h1>
+          </div>
+        </div>
+        <ul>
+            <li><a>Home</a></li>
+            <li><a>Log In</a></li>
+            <li><a>Join</a></li>
+            <li><a>About Us</a></li>
+            <li id="search-wrapper">
+                <label for="search" class="search">
+                    <input id="search" name="search" type="text" placeholder="Search" />
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </label>
+            </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <span id="blob"></span>
+        <div id="bg">
+            <div id="content-container">
+                <article class="content-wrapper">
+                    <h2 id="join-text">Join for free</h2>
+                    <p id="info-text">Unleash the traveler
+                        <span><br/></span>
+                        <span>inside YOU,&nbsp;</span> 
+                        Enjoy your Dream Vacation
+                    </p>
+                    <p id="get-started-text">Get started with the easiest and most secure website to buy travel tickets</p>
+                    <div id="btn-container">
+                        <a><button type="button" class="button">Explore more</button></a>
+                        <a><button type="button" class="button">Book Now</button></a>
+                    </div>
+                </article>
+                <article class="content-wrapper">
+                    <h2 id="create-account">Create </br> new account<span class="period">.</span> </h2>
+                    <form>
+                        <div class="form-input-wrapper">
+                            <input class="input" id="username" name="username" type="text" required />
+                            <label for="username" class="label">Username</label>
+                            <i class="fa-solid fa-user-large input-icon"></i>
+                        </div>
+
+                        <div id="names">
+                            <div class="form-input-wrapper">
+                                <input class="input" id="firstname" name="firstname" type="text" required />
+                                <label for="firstname" class="label">Firstname</label>
+                                <i class="fa-solid fa-id-card input-icon"></i>
+                            </div>
+
+                            <div class="form-input-wrapper">
+                                <input class="input" id="lastname" name="lastname" type="text" required />
+                                <label for="lastname" class="label">Lastname</label>
+                                <i class="fa-solid fa-id-card input-icon"></i>
+                            </div>
+                        </div>
+
+                        <div class="form-input-wrapper">
+                            <input class="input" id="email" name="email" type="email" required />
+                            <label for="email" class="label">Email</label>
+                            <i class="fa-solid fa-envelope input-icon"></i>
+                        </div>
+
+                        <div class="form-input-wrapper">
+                            <input class="input" id="password" name="password" type="password" required />
+                            <label for="password" class="label">Password</label>
+                            <i class="fa-solid fa-eye input-icon"></i>
+                        </div>
+                            
+                        <p id="loginText">Already A Member? <a class="period">Log In</a></p>
+
+                        <button class="button submit-button" type="submit" id="submitBtn">Create Account</button>
+                    </form>
+                </article>
+            </div>
+        </div>
+    </main>
+  </body>
+</html>
